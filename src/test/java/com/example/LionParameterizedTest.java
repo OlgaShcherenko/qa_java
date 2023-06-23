@@ -11,8 +11,8 @@ import static org.junit.Assert.*;
 
 @RunWith(Parameterized.class)
 public class LionParameterizedTest {
-    private final String sex;
-    private final boolean hasMane;
+    private String sex;
+    private boolean hasMane;
     Feline feline = Mockito.mock(Feline.class);
 
     public LionParameterizedTest(String sex, boolean hasMane) {
